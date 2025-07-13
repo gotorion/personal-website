@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold gradient-text mb-4">
-              John Doe
+              Junhui Li
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               A passionate full-stack developer dedicated to creating beautiful, 
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Junhui Li. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">

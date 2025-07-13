@@ -42,7 +42,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold gradient-text">
-              John Doe
+              Junhui Li
             </h1>
           </div>
 

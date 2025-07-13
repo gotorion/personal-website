@@ -1,4 +1,4 @@
-# John Doe - Portfolio Website
+# Junhui Li - Portfolio Website
 
 一个现代化的个人作品展示网站，使用 React + TypeScript + Tailwind CSS 构建。
 
@@ -139,6 +139,6 @@ MIT License
 
 如有问题，请通过以下方式联系：
 
-- Email: john.doe@example.com
-- GitHub: [@johndoe](https://github.com/johndoe)
-- LinkedIn: [John Doe](https://linkedin.com/in/johndoe)
+- Email: junhui.li@example.com
+- GitHub: [@junhuili](https://github.com/junhuili)
+- LinkedIn: [Junhui Li](https://linkedin.com/in/junhuili)

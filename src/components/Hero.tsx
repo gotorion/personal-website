@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0)
   const texts = [
-    'C++ Developer',
+    'Full-Stack Developer',
     'UI/UX Designer',
     'Problem Solver',
     'Creative Thinker'
@@ -37,7 +37,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Hi, I'm{' '}
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Junhui Li</span>
           </h1>
           
           <div className="h-16 sm:h-20 flex items-center justify-center mb-8">

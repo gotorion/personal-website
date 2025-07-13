@@ -24,18 +24,18 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-blue-500 rounded-full transform rotate-6"></div>
-                <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center">
-                  <div className="w-72 h-72 bg-gradient-to-br from-gray-100 to-gray-200 rounded-full flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-16 h-16 bg-primary-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <p className="text-gray-600 font-medium">John Doe</p>
-                      <p className="text-sm text-gray-500">Full-Stack Developer</p>
-                    </div>
-                  </div>
+                <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-primary-600 shadow-lg">
+                  <img
+                    src="/me.jpeg"
+                    alt="Junhui Li"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                
+                {/* 将文字移到照片下方 */}
+                <div className="text-center mt-8">
+                  <p className="text-gray-600 font-medium">Junhui Li</p>
+                  <p className="text-sm text-gray-500">Full-Stack Developer</p>
                 </div>
               </div>
             </div>

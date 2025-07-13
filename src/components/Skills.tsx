@@ -83,10 +83,8 @@ const Skills = () => {
           
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              'Next.js', 'Vue.js', 'Angular', 'Svelte', 'GraphQL', 'REST API',
-              'Redux', 'Zustand', 'Prisma', 'TypeORM', 'JWT', 'OAuth',
-              'Webpack', 'Vite', 'ESLint', 'Prettier', 'Storybook', 'Cypress',
-              'Firebase', 'Vercel', 'Netlify', 'Heroku', 'Linux', 'Nginx'
+              'Next.js', 'Vue.js', 'Angular', 'GraphQL', 'REST API', 'Github',
+              'Figma', 'Vite', 'ESLint', 'Prettier', 'Linux', 'Nginx'
             ].map((tech, index) => (
               <div
                 key={index}
