@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0)
   const texts = [
-    'Full-Stack Developer',
+    'C++ Developer',
     'UI/UX Designer',
     'Problem Solver',
     'Creative Thinker'

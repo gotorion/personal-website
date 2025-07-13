@@ -14,9 +14,9 @@ const Skills = () => {
       category: 'Backend',
       skills: [
         { name: 'Node.js', level: 85, color: 'from-green-500 to-green-600' },
-        { name: 'Express.js', level: 80, color: 'from-gray-600 to-gray-700' },
+        { name: 'C++', level: 80, color: 'from-gray-600 to-gray-700' },
         { name: 'Python', level: 75, color: 'from-blue-500 to-purple-600' },
-        { name: 'PostgreSQL', level: 70, color: 'from-blue-400 to-blue-600' },
+        { name: 'MySQL', level: 70, color: 'from-blue-400 to-blue-600' },
         { name: 'MongoDB', level: 75, color: 'from-green-400 to-green-600' },
       ]
     },
