@@ -52,7 +52,7 @@ const Header = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-orange-500 font-medium transition-colors duration-200"
               >
                 {item.name}
               </button>
@@ -63,7 +63,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-primary-600 focus:outline-none"
+              className="text-gray-700 hover:text-orange-500 focus:outline-none"
             >
               <svg
                 className="h-6 w-6"
@@ -99,7 +99,7 @@ const Header = () => {
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-200"
+                  className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-gray-50 rounded-md font-medium transition-colors duration-200"
                 >
                   {item.name}
                 </button>
@@ -112,4 +112,4 @@ const Header = () => {
   )
 }
 
-export default Header 
+export default Header

@@ -97,7 +97,7 @@ const Projects = () => {
               onClick={() => setActiveFilter(filter.id)}
               className={`px-6 py-2 rounded-full font-medium transition-all duration-200 ${
                 activeFilter === filter.id
-                  ? 'bg-primary-600 text-white shadow-lg'
+                  ? 'bg-orange-500 text-white shadow-lg'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
@@ -146,7 +146,7 @@ const Projects = () => {
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full font-medium"
+                      className="px-3 py-1 bg-orange-100 text-orange-700 text-sm rounded-full font-medium"
                     >
                       {tech}
                     </span>
@@ -179,4 +179,4 @@ const Projects = () => {
   )
 }
 
-export default Projects 
+export default Projects

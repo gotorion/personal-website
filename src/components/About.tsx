@@ -23,8 +23,8 @@ const About = () => {
           <div className="space-y-8">
             <div className="relative">
               <div className="w-80 h-80 mx-auto relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-blue-500 rounded-full transform rotate-6"></div>
-                <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-primary-600 shadow-lg">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-pink-500 rounded-full transform rotate-6"></div>
+                <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-orange-500 shadow-lg">
                   <img
                     src="/me.jpeg"
                     alt="Junhui Li"
@@ -72,25 +72,25 @@ const About = () => {
               <h4 className="text-lg font-semibold text-gray-900">What I do:</h4>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-orange-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Web Development (React, Node.js, TypeScript)
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-orange-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   UI/UX Design & Prototyping
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-orange-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Mobile App Development
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-orange-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Database Design & Management
@@ -118,4 +118,4 @@ const About = () => {
   )
 }
 
-export default About 
+export default About
