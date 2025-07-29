@@ -55,7 +55,7 @@ const Hero = () => {
           {/* 自我介绍 */}
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Hi, I'm{' '}
+              I'm {' '}
               <span className="gradient-text">Junhui Li</span>
             </h1>
             <div className="h-16 sm:h-20 flex items-center justify-center md:justify-start mb-8">
