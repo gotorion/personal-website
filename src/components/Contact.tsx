@@ -61,8 +61,8 @@ const Contact = () => {
         </svg>
       ),
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+86 176-1109-8625',
+      link: 'tel:+8617611098625'
     }
   ]
 

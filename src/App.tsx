@@ -14,7 +14,7 @@ function App() {
     // 模拟加载时间
     const timer = setTimeout(() => {
       setIsLoading(false)
-    }, 1000)
+    }, 200)
 
     return () => clearTimeout(timer)
   }, [])

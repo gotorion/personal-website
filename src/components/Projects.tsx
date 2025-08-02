@@ -6,13 +6,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
+      title: 'HistoryGraph',
+      description: 'A Chrome extension that visualizes your browsing history as an interactive graph, allowing you to explore your web activity in a new way.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
       category: 'web',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      technologies: ['React', 'Node.js', 'Stripe'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/gotorion/HistoryGraph',
     },
     {
       id: 2,

@@ -27,7 +27,7 @@ const Skills = () => {
         { name: 'Docker', level: 70, color: 'from-blue-500 to-blue-600' },
         { name: 'AWS', level: 65, color: 'from-orange-400 to-orange-600' },
         { name: 'Figma', level: 80, color: 'from-purple-500 to-pink-500' },
-        { name: 'Jest', level: 75, color: 'from-red-500 to-red-600' },
+        { name: 'VSCode', level: 90, color: 'from-red-500 to-red-600' },
       ]
     }
   ]
